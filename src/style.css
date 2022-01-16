@@ -1,0 +1,33 @@
+:root{
+  --text-font: 'Segoe UI Light', 'Yu Gothic';
+  --text-size: 20px;
+}
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+body{
+  background-color: #efefef;
+  width: 100%;
+  height: 100%;
+}
+textarea{
+  display: inline-block;
+  width: 100%;
+  height: calc(100vh - 6.51px);
+  resize: none;
+  font-family: var(--text-font);
+  background-color: inherit;
+  color: inherit;
+  font-size: var(--text-size);
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  body{
+    background-color: #222;
+    color: #fff;
+  }
+}
